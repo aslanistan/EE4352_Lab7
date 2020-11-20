@@ -43,7 +43,7 @@ always @(posedge clk, posedge rst)
 begin
     if(rst)
     outp <=0;
-    else if (state <= 3'b100)
+    else if (state == 3'b100)
     outp <= 1;
     else
     outp <=0;

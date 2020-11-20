@@ -5,7 +5,7 @@ wire outp;
 reg[15:0] sequence;
 integer i;
 
-fsm dut( clk, rst, inp, outp);
+fsm_moore dut( clk, rst, inp, outp);
 
 initial
 begin
